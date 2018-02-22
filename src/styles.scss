@@ -4,11 +4,6 @@ html, body {
 }
 
 body {
-  .hello {
-
-  }
-
-  border: none;
   margin: 0;
 }
 
@@ -16,9 +11,13 @@ body {
   background: red;
   width: 100px;
   height: 100px;
-}
 
-.card .header {
-  background: pink;
-  height: 50%;
+  .header {
+    background: pink;
+    height: 50%;
+  }
+
+  @media (max-width: 900px) {
+      background: blue;
+  }
 }
