@@ -6,3 +6,14 @@ html, body {
 body {
   margin: 0;
 }
+
+.card {
+  background: red;
+  width: 100px;
+  height: 100px;
+}
+
+.card .header {
+  background: pink;
+  height: 50%;
+}
